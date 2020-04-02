@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>白窝</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2020-04-02T06:27:07.281Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>Bally Bai</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>精忠词</title>
+    <link href="http://yoursite.com/2020/04/02/%E7%B2%BE%E5%BF%A0%E8%AF%8D/"/>
+    <id>http://yoursite.com/2020/04/02/%E7%B2%BE%E5%BF%A0%E8%AF%8D/</id>
+    <published>2020-04-02T06:22:32.000Z</published>
+    <updated>2020-04-02T06:27:07.281Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id=""><a href="#" class="headerlink" title=""></a><img src="/" class="lazyload" data-src="https://s1.ax1x.com/2020/04/02/GJEEHU.md.jpg"  alt="精忠词1"></h2><p><img src="/" class="lazyload" data-src="https://s1.ax1x.com/2020/04/02/GJEeN4.md.jpg"  alt="精忠词2"></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;headerlink&quot; title=&quot;&quot;&gt;&lt;/a&gt;&lt;img src=&quot;/&quot; class=&quot;lazyload&quot; data-src=&quot;https://s1.ax1x.com/2020/04/02/GJEEHU.md.jpg&quot; 
+      
+    
+    </summary>
+    
+    
+      <category term="古琴" scheme="http://yoursite.com/categories/%E5%8F%A4%E7%90%B4/"/>
+    
+      <category term="琴谱" scheme="http://yoursite.com/categories/%E5%8F%A4%E7%90%B4/%E7%90%B4%E8%B0%B1/"/>
+    
+    
+      <category term="古琴" scheme="http://yoursite.com/tags/%E5%8F%A4%E7%90%B4/"/>
+    
+      <category term="琴谱" scheme="http://yoursite.com/tags/%E7%90%B4%E8%B0%B1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>hexo+github</title>
+    <link href="http://yoursite.com/2020/04/02/hexo-github/"/>
+    <id>http://yoursite.com/2020/04/02/hexo-github/</id>
+    <published>2020-04-02T05:16:30.000Z</published>
+    <updated>2020-04-02T06:10:31.137Z</updated>
+    
+    <content type="html"><![CDATA[<ol><li>安装node.js<p><a href="https://nodejs.org" target="_blank" rel="noopener">node.js</a>，下载LTS版本</p></li><li>安装cnpm<ul><li>切换到root用户<br><code>sudo su</code></li><li>执行命令：<br><code>npm install -g cnpm --registry=https://registry.npm.taobao.org</code><br>使用淘宝镜像安装</li></ul></li><li>使用cnpm安装hexo<br> <code>cnpm install -g hexo-cli</code></li><li>创建博客<ul><li>创建博客文件夹<br><code>mkdir blog</code></li><li>进入文件夹<br><code>cd blog</code></li><li>创建博客<br><code>sudo hexo init</code></li></ul></li><li>本地访问博客<br> 生成博客<code>hexo g</code><br> 启动本地服务器<code>hexo s</code><br> 可使用<code>hexo s -p 5000</code>指定端口<br> 浏览器访问localhost:4000打开博客</li><li>新建文章<br> <code>hexo new &quot;article-title&quot;</code></li><li>部署到github<ul><li>在github新建仓库：cqoldby.github.io</li><li>在blog目录下安装部署插件<br>  <code>cnpm install --save hexo-deployer-git</code></li><li>更改主配置文件_config.yml  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">repo: https:&#x2F;&#x2F;github.com&#x2F;cqoldby&#x2F;cqoldby.github.io.git</span><br><span class="line">branch: master</span><br></pre></td></tr></table></figure></li><li>部署<br>  <code>hexo d</code></li></ul></li><li>更换主题<ul><li>下载主题<br>  <code>git clone https://github.com/litten/hexo-theme-yilia.git themes/yilia</code><br>  <code>git clone https://github.com/jerryc127/hexo-theme-butterfly.git themes/butterfly</code></li><li>更改主配置文件_config.yml<br>  <code>themes: yilia</code></li></ul></li><li>故障解决<ul><li>报错：npm install –save hexo-renderer-jade hexo-generator-feed hexo-generator-sitemap hexo-browsersync hexo-generator-archive<br>  安装插件：<br>  <code>npm install --save hexo-renderer-jade hexo-generator-feed hexo-generator-sitemap hexo-browsersync hexo-generator-archive</code></li></ul></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ol&gt;
+&lt;li&gt;安装node.js&lt;p&gt;&lt;a href=&quot;https://nodejs.org&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;node.js&lt;/a&gt;，下载LTS版本&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;安装cnpm&lt;ul&gt;
+&lt;li&gt;切换到root用户&lt;b
+      
+    
+    </summary>
+    
+    
+      <category term="博客搭建" scheme="http://yoursite.com/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+    
+    
+      <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
+    
+      <category term="github" scheme="http://yoursite.com/tags/github/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yoursite.com/2020/04/01/hello-world/"/>
+    <id>http://yoursite.com/2020/04/01/hello-world/</id>
+    <published>2020-04-01T12:47:14.400Z</published>
+    <updated>2020-04-01T12:47:14.400Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+</feed>

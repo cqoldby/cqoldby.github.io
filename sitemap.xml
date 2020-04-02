@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>http://yoursite.com/2020/04/02/%E7%B2%BE%E5%BF%A0%E8%AF%8D/</loc>
+    
+    <lastmod>2020-04-02T06:27:07.281Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2020/04/02/hexo-github/</loc>
+    
+    <lastmod>2020-04-02T06:10:31.137Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/categories/index.html</loc>
+    
+    <lastmod>2020-04-01T12:56:02.823Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/tags/index.html</loc>
+    
+    <lastmod>2020-04-01T12:53:57.251Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2020/04/01/hello-world/</loc>
+    
+    <lastmod>2020-04-01T12:47:14.400Z</lastmod>
+    
+  </url>
+  
+</urlset>
